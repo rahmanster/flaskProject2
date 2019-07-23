@@ -1,13 +1,25 @@
 <html>
     <head>
-        <title>Welcome!</title>
+        <title>Bill Tipper!</title>
+        <link rel="stylesheet" href="static/style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Carter+One|Josefin+Sans&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" value="Enter your nickname"/>
-            <input type="submit" value="Submit"/>
+        <h1>Bill Tipper!</h1>
+        <h3>What is the total amount of your bill?</h3>
+        <form method="POST" action="/bill">
+        <label for="total">What is the total?</label>
+        <input type='text' name='total'>
+        </br>
+        <label for="tip">What percent would you like to tip? (Ex. 20% = 20)</label>
+        <input type='text' name='tip'>
+        </br>
+        <input type='submit'>
         </form>
+        </br>
+        <img src="https://www.applebees.com/-/media/applebees/campaigns/to-go/images/2019_togotime/applebees_togo_time.jpg?la=en&hash=BBF08AC4DA1B00BEB6BEDACFCAC4D015253D7A15"></img>
+        <img src="https://i.kinja-img.com/gawker-media/image/upload/s--GzOzA-mn--/c_scale,f_auto,fl_progressive,q_80,w_800/wtqgmwes21mley3a5nzi.jpg"></img>
+        <img src="https://stmedia.stimg.co/1497931321_06+5stocks010514.JPG?auto=compress&crop=faces&dpr=1&w=525"></img>
     </body>
 </html>
