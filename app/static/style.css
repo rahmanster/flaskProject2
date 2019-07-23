@@ -9,3 +9,8 @@ img{
     width:400px;
     height:200px;
 }
+
+input[type=text] {
+  border: 2px solid blue;
+  border-radius: 4px;
+}

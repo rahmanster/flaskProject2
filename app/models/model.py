@@ -1,7 +1,17 @@
 def tip(num, tip):
-    return num*(tip/100)
+    answer = num*(tip/100)
+    answer = str(round(answer, 2))
+    return answer
     
 def totalBill(num,tip):
-    return num*(1+(tip/100))
+    answer= num*(1+(tip/100))
+    answer = str(round(answer, 2))
+    return answer
+    
+def split(num, tip, people):
+    answer = (num*(1+(tip/100)))/people
+    answer = str(round(answer, 2))
+    return answer
+    
     
     
